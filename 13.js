@@ -14,4 +14,3 @@ const fold = (values = testValues, toFold = ['y=7','x=5' ]) => {
 	})
 	return fold(Object.keys(nextDots), toFold)
 }
-
